@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: dimgray;
+}
+.container-fluid {
+  max-width: 50%;
+  max-height: 1950px;
+  min-height: 460px;
+  min-width: 50%;
+  margin: 300px auto;
+  border-radius: 10px;
+  background-color: #6495ED;
+  opacity: .85;
+  box-shadow: 0px 0px 5px black;
+  display: inline-block;
+}
+#heading {
+  color: black;
+  border-bottom: 3px solid black;
+  margin: -15px;
+  padding: 5px;
+  font-family: Lobster;
+  text-shadow: 2px 2px 7px #111111;
+}
+#quote-box {
+  font-family: "Kaushan Script";
+  font-weight: normal;
+  max-height: 1900px;
+  display: inline-block;
+  margin: 45px auto;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px black;
+}
+.btn-primary {
+  margin: -105px;
+}
+.btn-success {
+  margin: 20px
+}
+button {
+  font-size: 18px !important;
+  margin: 3px !important;
+  width: 160px;
+}
+h3 {
+  position: relative;
+  top: 30px;
+  font-family: "Kaushan Script";
+  font-weight: bold;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
