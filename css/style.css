@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: dimgray;
+  background-color: white;
 }
 .container-fluid {
   max-width: 50%;
@@ -8,7 +8,6 @@ body {
   min-height: 460px;
   min-width: 50%;
   margin: 300px auto;
-  border-radius: 10px;
   background-color: #6495ED;
   opacity: .85;
   box-shadow: 0px 0px 5px black;
