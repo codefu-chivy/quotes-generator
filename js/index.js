@@ -6,7 +6,7 @@ $(function() {
   
   $("#random").on("click", function() {
     var randomColor = Math.floor(Math.random() * colorArr.length); 
-    $(".container-fluid").css("background-color", colorArr[randomColor]);  
+    /*$(".container-fluid").css("background-color", colorArr[randomColor]);*/
     $("#date").fadeOut();  
     $("#quote-box").html("");
     $(".container-fluid").hide().fadeIn();
@@ -44,7 +44,7 @@ $(function() {
   $("#qod").on("click", function() {
     var today = new Date();
     var todayStr = (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear();
-    $.getJSON("http://quotes.rest/qod.json", function(data) {
+    $.getJSON("https://quotes.rest/qod.json", function(data) {
       $(".container-fluid").hide().fadeIn();
       var quoteOfDay = data.contents.quotes[0].quote + "</br>" + "- " + data.contents.quotes[0].author
       $("#quote-box").html(quoteOfDay);
