@@ -48,7 +48,7 @@ $(function() {
       $(".container-fluid").hide().fadeIn();
       var quoteOfDay = data.contents.quotes[0].quote + "</br>" + "- " + data.contents.quotes[0].author
       $("#quote-box").html(quoteOfDay);
-      $("#tweet").attr({"href": "http://twitter.com/intent/tweet?text=" + quoteOfDay});
+      $("#tweet").attr({"href": "https://twitter.com/intent/tweet?text=" + quoteOfDay});
       $("#date").html(todayStr);
       $("#date").fadeIn();
     });
