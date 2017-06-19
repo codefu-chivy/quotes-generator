@@ -3,7 +3,7 @@ body {
   background-color: white;
 }
 #blur {
-    background-image: url("http://kingofwallpapers.com/minimalist/minimalist-001.jpg");
+    background-image: url("https://universe-beauty.com/albums/userpics/2011y/05/10/1/7/universe-art-7-photo141.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,7 +35,7 @@ body {
   border-radius: 5px;
 }
 #heading {
-  color: black;
+  color: white !important;
   border-bottom: 3px solid white;
   margin: -15px;
   padding: 5px;
